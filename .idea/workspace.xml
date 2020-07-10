@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bb2d222-2800-450b-a9b9-e48501aaca01" name="Default Changelist" comment="" />
+    <list default="true" id="4bb2d222-2800-450b-a9b9-e48501aaca01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/XMLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XMLUtil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +17,25 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1eUCyrVGhMp6mj6sR388737LOeI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,10 +43,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -47,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594367041429</updated>
-      <workItem from="1594367044860" duration="423000" />
+      <workItem from="1594367044860" duration="1502000" />
     </task>
     <servers />
   </component>
@@ -55,6 +82,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Project_Structure" timestamp="1594368666892">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1594368666892" />
+    <state width="1638" height="225" key="GridCell.Tab.0.bottom" timestamp="1594368752117">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="225" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594368752117" />
+    <state width="1638" height="225" key="GridCell.Tab.0.center" timestamp="1594368752116">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="225" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594368752116" />
+    <state width="1638" height="225" key="GridCell.Tab.0.left" timestamp="1594368752115">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="225" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594368752115" />
+    <state width="1638" height="225" key="GridCell.Tab.0.right" timestamp="1594368752116">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="225" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594368752116" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1594367624957">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

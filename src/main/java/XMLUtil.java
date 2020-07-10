@@ -1,11 +1,13 @@
+import org.apache.log4j.Logger;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import java.io.StringWriter;
 
-import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
-
 public class XMLUtil {
+
+    private final static Logger LOGGER = Logger.getLogger(XMLUtil.class.getName());
 
     public static String toXML(Object data) {
         String xml = "";
@@ -18,7 +20,7 @@ public class XMLUtil {
             jaxbMarshaller.marshal(data, sw);
             xml = sw.toString();
         } catch (JAXBException e) {
-            LOGGER.throwing(XMLUtil.class.getName(), "JAXBException while generation xml for: " + data.getClass(), e);
+            LOGGER.error("JAXBException while generation xml for: " + data.getClass(), e);
         }
         return xml;
     }
