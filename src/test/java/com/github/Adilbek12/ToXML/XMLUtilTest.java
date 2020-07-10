@@ -13,6 +13,7 @@ import static org.junit.Assert.*;
 
 public class XMLUtilTest {
     private XMLTestEntity xmlTestEntity;
+    private XMLTestWrongEntity xmlTestWrongEntity;
 
     @Before
     public void setUp() {
@@ -24,15 +25,19 @@ public class XMLUtilTest {
         xmlTestEntity.fieldOne = "fieldOneValue";
         xmlTestEntity.fieldTwo = new BigDecimal("2");
         xmlTestEntity.innerEntity = innerEntity;
+
+        xmlTestWrongEntity = new XMLTestWrongEntity();
+        xmlTestWrongEntity.fieldOne = "fieldOne";
     }
 
     @After
     public void tearDown() {
         xmlTestEntity = null;
+        xmlTestWrongEntity = null;
     }
 
     @Test
-    public void testToXml() {
+    public void testToXmlTrue() {
         String xml = XMLUtil.toXML(xmlTestEntity);
 
         String expectedXML =
@@ -47,6 +52,14 @@ public class XMLUtilTest {
         assertNotNull(xml);
         assertFalse(xml.isEmpty());
         assertEquals(expectedXML, xml);
+    }
+
+    @Test
+    public void testToXmlWrong() {
+        String xml = XMLUtil.toXML(xmlTestWrongEntity);
+
+        assertNotNull(xml);
+        assertTrue(xml.isEmpty());
     }
 
     @SuppressWarnings("unused")
@@ -66,5 +79,10 @@ public class XMLUtilTest {
         private float fieldThree;
         @XmlAttribute(name = "fieldFour")
         private boolean fieldFour;
+    }
+
+    public static class XMLTestWrongEntity {
+        @XmlAttribute(name = "fieldOne")
+        private String fieldOne;
     }
 }

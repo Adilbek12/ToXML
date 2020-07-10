@@ -61,7 +61,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.XMLUtilTest.testToXmlWrong">
     <configuration name="XMLUtilTest.testToXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ToXML" />
       <extension name="coverage">
@@ -78,8 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XMLUtilTest.testToXmlWrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToXML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.Adilbek12.ToXML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.Adilbek12.ToXML" />
+      <option name="MAIN_CLASS_NAME" value="com.github.Adilbek12.ToXML.XMLUtilTest" />
+      <option name="METHOD_NAME" value="testToXmlWrong" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.XMLUtilTest.testToXmlWrong" />
         <item itemvalue="JUnit.XMLUtilTest.testToXml" />
       </list>
     </recent_temporary>
@@ -126,6 +143,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="539" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594374975202" />
+    <state x="378" y="187" key="DBNavigator.MethodExecutionHistoryDialog" timestamp="1594375831176">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="378" y="187" key="DBNavigator.MethodExecutionHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594375831176" />
     <state width="1638" height="225" key="GridCell.Tab.0.bottom" timestamp="1594375756635">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -158,9 +179,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594375258980" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1594367624957">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1594375828992">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594367624957" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594375828992" />
   </component>
 </project>
