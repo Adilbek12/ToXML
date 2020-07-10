@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.gitlab.MvAdilbek</groupId>
+    <groupId>com.github.Adilbek12</groupId>
     <artifactId>ToXML</artifactId>
     <version>1.0</version>
 
@@ -26,7 +26,7 @@
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Создает XML-файл по заранее сгенерированным биндингам JAXB при помощи утилиты XJC</description>
-    <url>https://gitlab.com/MvAdilbek/toxml</url>
+    <url>https://github.com/Adilbek12/ToXML</url>
 
     <licenses>
         <license>
@@ -39,15 +39,15 @@
         <developer>
             <name>Mailanov Adilbek</name>
             <email>mv.adilbek@gmail.com</email>
-            <organization>Prime Source</organization>
-            <organizationUrl>https://gitlab.com/MvAdilbek/</organizationUrl>
+            <organization>com.github.Adilbek12</organization>
+            <organizationUrl>https://github.com/Adilbek12</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://gitlab.com:MvAdilbek/toxml.git</connection>
-        <developerConnection>scm:git:ssh://gitlab.com:MvAdilbek/toxml.git</developerConnection>
-        <url>https://gitlab.com/MvAdilbek/toxml</url>
+        <connection>scm:git:git://github.com/Adilbek12/ToXML.git</connection>
+        <developerConnection>scm:git:ssh://github.com/Adilbek12/ToXML.git</developerConnection>
+        <url>https://github.com/Adilbek12/ToXML</url>
     </scm>
 
     <dependencies>
