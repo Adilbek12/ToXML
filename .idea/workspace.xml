@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb2d222-2800-450b-a9b9-e48501aaca01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/Adilbek12/ToXML/XMLUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XMLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/Adilbek12/ToXML/XMLUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/Adilbek12/ToXML/XMLUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/Adilbek12/ToXML/XMLUtilTest$XMLTestEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/Adilbek12/ToXML/XMLUtilTest$XMLTestInnerEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/Adilbek12/ToXML/XMLUtilTest$XMLTestWrongEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/github/Adilbek12/ToXML/XMLUtilTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +59,26 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.XMLUtilTest.testToXmlWrong">
+  <component name="RunManager" selected="JUnit.XMLUtilTest.testToXmlTrue">
+    <configuration name="XMLUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToXML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.Adilbek12.ToXML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.Adilbek12.ToXML" />
+      <option name="MAIN_CLASS_NAME" value="com.github.Adilbek12.ToXML.XMLUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XMLUtilTest.testToXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ToXML" />
       <extension name="coverage">
@@ -73,6 +90,22 @@
       <option name="PACKAGE_NAME" value="com.github.Adilbek12.ToXML" />
       <option name="MAIN_CLASS_NAME" value="com.github.Adilbek12.ToXML.XMLUtilTest" />
       <option name="METHOD_NAME" value="testToXml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XMLUtilTest.testToXmlTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToXML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.Adilbek12.ToXML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.Adilbek12.ToXML" />
+      <option name="MAIN_CLASS_NAME" value="com.github.Adilbek12.ToXML.XMLUtilTest" />
+      <option name="METHOD_NAME" value="testToXmlTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,6 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.XMLUtilTest.testToXmlTrue" />
+        <item itemvalue="JUnit.XMLUtilTest" />
         <item itemvalue="JUnit.XMLUtilTest.testToXmlWrong" />
         <item itemvalue="JUnit.XMLUtilTest.testToXml" />
       </list>
@@ -123,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594367041429</updated>
-      <workItem from="1594367044860" duration="4368000" />
+      <workItem from="1594367044860" duration="5599000" />
     </task>
     <servers />
   </component>
@@ -147,38 +182,46 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="378" y="187" key="DBNavigator.MethodExecutionHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594375831176" />
-    <state width="1638" height="225" key="GridCell.Tab.0.bottom" timestamp="1594375756635">
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom" timestamp="1594377374098">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="225" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594375756635" />
-    <state width="1638" height="225" key="GridCell.Tab.0.center" timestamp="1594375756634">
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594377374098" />
+    <state width="1638" height="363" key="GridCell.Tab.0.center" timestamp="1594377374096">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="225" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594375756634" />
-    <state width="1638" height="225" key="GridCell.Tab.0.left" timestamp="1594375756633">
+    <state width="1638" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594377374096" />
+    <state width="1638" height="363" key="GridCell.Tab.0.left" timestamp="1594377374094">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="225" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594375756633" />
-    <state width="1638" height="225" key="GridCell.Tab.0.right" timestamp="1594375756635">
+    <state width="1638" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594377374094" />
+    <state width="1638" height="363" key="GridCell.Tab.0.right" timestamp="1594377374097">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="225" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594375756635" />
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1594375258980">
+    <state width="1638" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594377374097" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1594377374002">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594375258980" />
-    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1594375258979">
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594377374002" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1594377374001">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594375258979" />
-    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1594375258979">
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594377374001" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1594377374000">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594375258979" />
-    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1594375258980">
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594377374000" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1594377374001">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594375258980" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594377374001" />
+    <state x="328" y="106" key="SettingsEditor" timestamp="1594377224439">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1594377224439" />
+    <state x="498" y="282" width="683" height="486" key="find.popup" timestamp="1594377030009">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="498" y="282" width="683" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594377030009" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1594375828992">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
