@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb2d222-2800-450b-a9b9-e48501aaca01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/Adilbek12/ToXML/XMLUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/XMLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/Adilbek12/ToXML/XMLUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,13 @@
     <expand />
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,6 +60,29 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="XMLUtilTest.testToXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ToXML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.Adilbek12.ToXML.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.Adilbek12.ToXML" />
+      <option name="MAIN_CLASS_NAME" value="com.github.Adilbek12.ToXML.XMLUtilTest" />
+      <option name="METHOD_NAME" value="testToXml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.XMLUtilTest.testToXml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -72,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594367041429</updated>
-      <workItem from="1594367044860" duration="2831000" />
+      <workItem from="1594367044860" duration="4368000" />
     </task>
     <servers />
   </component>
@@ -84,22 +118,46 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1594368666892" />
-    <state width="1638" height="225" key="GridCell.Tab.0.bottom" timestamp="1594368752117">
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1594375036280">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="225" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594368752117" />
-    <state width="1638" height="225" key="GridCell.Tab.0.center" timestamp="1594368752116">
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1594375036280" />
+    <state x="539" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594374975202">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="225" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594368752116" />
-    <state width="1638" height="225" key="GridCell.Tab.0.left" timestamp="1594368752115">
+    <state x="539" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594374975202" />
+    <state width="1638" height="225" key="GridCell.Tab.0.bottom" timestamp="1594375756635">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="225" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594368752115" />
-    <state width="1638" height="225" key="GridCell.Tab.0.right" timestamp="1594368752116">
+    <state width="1638" height="225" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594375756635" />
+    <state width="1638" height="225" key="GridCell.Tab.0.center" timestamp="1594375756634">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="225" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594368752116" />
+    <state width="1638" height="225" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594375756634" />
+    <state width="1638" height="225" key="GridCell.Tab.0.left" timestamp="1594375756633">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="225" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594375756633" />
+    <state width="1638" height="225" key="GridCell.Tab.0.right" timestamp="1594375756635">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="225" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594375756635" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1594375258980">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594375258980" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1594375258979">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594375258979" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1594375258979">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594375258979" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1594375258980">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594375258980" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1594367624957">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
